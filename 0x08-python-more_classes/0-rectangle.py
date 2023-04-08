@@ -4,3 +4,4 @@
 
 Class Rectangle:
     """An empty class representing a rectangle"""
+	pass
