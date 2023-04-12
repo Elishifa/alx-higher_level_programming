@@ -6,7 +6,7 @@
 
 
 def read_file(filename=""):
-    """"reads and prints text file(UTF8) to 
+    """reads and prints text file(UTF8) to
     standard output
     """
     with open(filename, "r", encoding="utf-8") as f:
