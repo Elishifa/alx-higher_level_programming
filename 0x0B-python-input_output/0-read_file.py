@@ -4,6 +4,7 @@
 Defines the read_file function
 """
 
+
 def read_file(filename=""):
     """""reads and prints text file(UTF8) to stdout"""
     with open(filename, "r", encoding="utf-8") as f:
