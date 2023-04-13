@@ -1,7 +1,7 @@
 #!/usr/bin/python3
+
 """
-   Function checks an object if its
-   the instance of a specified class.
+Function checks an object if its the instance of a specified class.
 """
 
 
