@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-"""Checks a class instance"""
+"""
+Checks a class instance
+"""
 
 
 def inherits_from(obj, a_class):
