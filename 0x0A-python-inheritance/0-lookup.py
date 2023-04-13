@@ -6,10 +6,5 @@
 
 
 def lookup(obj):
-    """This function returns a list of objects
-    Args:
-        obj (Any): object
-    Returns:
-        list: members and attributes list
-    """
+    """This function returns a list of objects"""
     return dir(obj)
