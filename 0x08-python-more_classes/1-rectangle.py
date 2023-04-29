@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-# 1-rectangle.py
-"""Defines a Rectangle class."""
+
+"""
+Defines a Rectangle class
+"""
 
 
 class Rectangle:
@@ -9,8 +11,8 @@ class Rectangle:
     def __init__(self, width=0, height=0):
         """new Rectangle initialisation
         Args:
-            width (int): new rectangle width.
-            height (int): new rectangle height.
+            width (int): New rectangle width.
+            height (int): New rectangle height.
         """
         self.width = width
         self.height = height
