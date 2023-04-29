@@ -5,8 +5,6 @@ A class defining an empty rectangle
 """
 
 
-Class Rectangle:
-    """
-       An empty class representing a rectangle
-    """
+class Rectangle:
+    """An emoty class representing a rectangle"""
     pass
