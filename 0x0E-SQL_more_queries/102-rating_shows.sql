@@ -2,8 +2,8 @@
 -- Each record should display: tv_shows.title - rating sum
 -- Results must be sorted in descending order by the rating
 -- You can use only one SELECT statement
-SELECT tvs.title, SUM(tvs_ratings.rate) AS rating
-FROM tvs
-INNER JOIN tvs_ratings ON tvs.id = tvs_ratings.show_id
-GROUP BY tvs_ratings.show_id
-ORDER BY rating DESC;
+SELECT 'tv_shows.title', SUM('tv_show_ratings.rate') AS 'rating'
+FROM 'tv_shows'
+INNER JOIN 'tv_show_ratings' ON 'tv_shows.id' = 'tv_show_ratings.show_id'
+GROUP BY 'tv_show_ratings.show_id'
+ORDER BY 'rating' DESC;
