@@ -3,7 +3,7 @@
 -- Results must be sorted in descending order by the rating
 -- You can use only one SELECT statement
 SELECT tvs.title, SUM(tvs_ratings.rate) AS rating
-FROM tv_shows
+FROM tvs
 INNER JOIN tvs_ratings ON tvs.id = tvs_ratings.show_id
 GROUP BY tvs_ratings.show_id
 ORDER BY rating DESC;
