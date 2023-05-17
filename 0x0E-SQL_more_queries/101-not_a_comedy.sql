@@ -4,7 +4,7 @@
 -- You can use a maximum of two SELECT statement
 SELECT t.title
 FROM tv_shows t
-WHERE s.title NOT IN (
+WHERE t.title NOT IN (
       SELECT t.title
       FROM tv_shows t
       INNER JOIN tv_show_genres m ON t.id = m.show_id
